@@ -1,19 +1,17 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * main - prints Holberton
- *
- * Description: prints Holberton
- *
- * Return: 0 (Success)
- */
+* main - this program prints _putchar
+* we are not allowed to use stdio.h as our header file.
+* Return: 0 always successful
+*/
 
 int main(void)
 {
-	char text[10] = "Holberton";
+	char text[9] = "_putchar";
 	int i = 0;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 8; i++)
 	{
 		_putchar(text[i]);
 	}
